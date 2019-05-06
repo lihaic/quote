@@ -9,3 +9,8 @@ func Hello() string {
 func Hi() string {
 	return "hi"
 }
+
+// Dreat return string dream
+func Dream() string {
+	return "dream"
+}

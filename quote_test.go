@@ -15,3 +15,10 @@ func TestHi(t *testing.T) {
 		t.Errorf("got != want, got=%s, want=%s", got, want)
 	}
 }
+
+func TestDream(t *testing.T) {
+	want := "dream"
+	if got := Dream(); got != want {
+		t.Errorf("got != want, got=%s, want=%s", got, want)
+	}
+}
