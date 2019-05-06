@@ -17,8 +17,8 @@ func TestHi(t *testing.T) {
 }
 
 func TestDream(t *testing.T) {
-	want := "dream"
-	if got := Dream(); got != want {
+	want := "dream is dream"
+	if got := Dream("dream"); got != want {
 		t.Errorf("got != want, got=%s, want=%s", got, want)
 	}
 }

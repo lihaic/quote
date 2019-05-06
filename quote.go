@@ -10,7 +10,7 @@ func Hi() string {
 	return "hi"
 }
 
-// Dreat return string dream
-func Dream() string {
-	return "dream"
+// Dream return string dream
+func Dream(dream string) string {
+	return "dream is " + dream
 }
